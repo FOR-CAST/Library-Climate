@@ -176,7 +176,7 @@ namespace Landis.Library.Climate
             }
             set
             {
-                if(value < 0 || value > 365)
+                if(value < 1 || value > 365)
                     throw new InputValueException(value.ToString(), "\"{0}\" must be a valid Julian day of year.", value);
                 springStart = value;
             }
@@ -190,7 +190,7 @@ namespace Landis.Library.Climate
             }
             set
             {
-                if (value < 0 || value > 365 || value < SpringStart)
+                if (value < 1 || value > 365 || value < SpringStart)
                     throw new InputValueException(value.ToString(), "\"{0}\" must be a valid Julian day of year AND > spring start.", value);
                 winterStart = value;
             }
