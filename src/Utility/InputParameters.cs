@@ -129,7 +129,7 @@ namespace Landis.Library.Climate
             }
             set
             {
-                if (value < 0 || value > 500)
+                if (value < 0 || value > 102)
                     throw new InputValueException(value.ToString(), "\"{0}\" must be a valid fine fuel moisture code.", value);
                 FineFuelMoistureCode_yesterday = value;
             }
@@ -145,7 +145,7 @@ namespace Landis.Library.Climate
             }
             set
             {
-                if (value < 0 || value > 500)
+                if (value < 0 || value > 10000)
                     throw new InputValueException(value.ToString(), "\"{0}\" must be a valid duff moisture code.", value);
                 DuffMoistureCode_yesterday = value;
             }
@@ -161,7 +161,7 @@ namespace Landis.Library.Climate
             }
             set
             {
-                if (value < 0 || value > 365)
+                if (value < 0 || value > 10000)
                     throw new InputValueException(value.ToString(), "\"{0}\" must be a valid drought code.", value);
                 DroughtCode_yesterday = value;
             }
