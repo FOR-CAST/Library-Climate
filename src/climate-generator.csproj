@@ -6,7 +6,7 @@
     <AssemblyCompany>LANDIS-II Foundation</AssemblyCompany>
     <AssemblyProduct>Landis.Properties</AssemblyProduct>
     <AssemblyCopyright>LANDIS-II Foundation</AssemblyCopyright>
-    <AssemblyVersion>6.0</AssemblyVersion>
+    <AssemblyVersion>6.0.1</AssemblyVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/LANDIS-II-Foundation/Library-Climate</RepositoryUrl>
@@ -21,7 +21,7 @@
     <PackageTags>LANDIS-II;Landis;Library;Climate</PackageTags>
     <Description>The climate library for integrating and coordinating climatic inputs.</Description>
     <PackageReleaseNotes>.NET Standard 2.0 update.</PackageReleaseNotes>
-    <FileVersion>6.0</FileVersion>
+    <FileVersion>6.0.1</FileVersion>
     <PackageId>Landis.Library.Climate-v6</PackageId>
   </PropertyGroup>
   <ItemGroup>
